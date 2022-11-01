@@ -42,8 +42,6 @@
           contentType: false,
           processData: false,
           success: function (data) {
-            debugger;
-
             let template = '';
 
             $.each(data, function (index, v) {

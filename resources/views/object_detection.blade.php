@@ -42,7 +42,6 @@
           contentType: false,
           processData: false,
           success: function (data) {
-            debugger;
             let template = '';
 
             template += `
